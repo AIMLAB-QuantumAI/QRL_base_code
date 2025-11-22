@@ -1,0 +1,7 @@
+```text
+pennylane
+torch
+gym
+numpy
+matplotlib
+tensorboard
