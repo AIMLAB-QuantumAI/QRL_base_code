@@ -1,6 +1,7 @@
 # Quantum Reinforcement Learning: CartPole with QDQN
 
-This project implements a **Quantum Deep Q-Network (QDQN)** to solve the OpenAI Gym `CartPole-v1` environment. It replaces the classical neural network with a **Variational Quantum Circuit (VQC)** using PennyLane and PyTorch.
+This project implements a Quantum Deep Q-Network (QDQN) designed to solve the OpenAI Gym CartPole-v1 reinforcement-learning environment.
+Instead of relying on a traditional classical neural network to approximate the Q-value function, the model integrates a Variational Quantum Circuit (VQC) built with PennyLane and PyTorch. The VQC acts as the function approximator within the DQN framework, enabling the agent to leverage parameterized quantum operations to represent complex decision boundaries.
 
 ## Overview
 * **Environment:** OpenAI Gym `CartPole-v1`
