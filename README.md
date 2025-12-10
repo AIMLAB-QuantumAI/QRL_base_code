@@ -15,7 +15,7 @@ You can modify the following variables in the code to change the environment or 
 ### 1. Changing the Environment
 To solve a different problem (e.g., MountainCar), modify these variables in the code:
 * **Environment Name:** Change `env = gym.make('CartPole-v1')` to your desired environment.
-* **Input Dimension:** Update `x_dim = 4` to match the observation space size of the new environment.
+* **Input Dimension:** Update `x_dim = 4` to match the state space size of the new environment.
 * **Action Space:** Update `n_qubits = 2` (and the circuit measurement) to match the number of actions.
 
 ### 2. Hyperparameters
@@ -23,7 +23,7 @@ To solve a different problem (e.g., MountainCar), modify these variables in the 
 * `gamma`: 0.98 (Discount factor)
 * `batch_size`: 32
 * `n_layers`: 3 (Depth of quantum circuit)
-* `epsilon`: Exploration rate (starts at 8%)
+* `epsilon`: Exploration rate (starts at 7%)
 
 ## How to Run
 
