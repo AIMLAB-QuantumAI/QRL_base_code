@@ -1,3 +1,5 @@
+# QRL base code requirements
+
 pennylane
 torch
 gym
